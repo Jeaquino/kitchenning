@@ -1,15 +1,28 @@
 #logo{
-    width: 25%;
+    width: 100px;
     border-radius: 50%;
     border: solid 1px black;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.3);
 }
 
 .header__nav{
     background-color: var(--var-color-enlace);
     text-align: center;
     list-style: none;
+    display: inline-block;
+    padding: 9px;
+    min-width: 120px;
+    margin: 20px 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .header__nav a{
     text-decoration: none;
+}
+header>nav>ul{
+    text-align: center;
+    margin-right: 40px;
 }

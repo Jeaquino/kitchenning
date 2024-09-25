@@ -26,3 +26,45 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+main>img{
+    display: flex;
+    width: 50%;
+    min-width: 500px;
+    max-width: 100dvw;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.3);
+}
+
+main>section{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 55%;
+}
+main>section>article{
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    margin: 20px 13px;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.1), transparent);
+    box-shadow: 0 0 30px rgb(0, 0, 0, 0.3);
+    border-radius: 0 0 5px 5px;
+}
+article>img{
+    width: 300px;
+    border-radius: 5px 5px 0 0;
+}
+article> h3,p{
+    padding: 5px 10px;
+}
+article>a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.3), transparent);
+
+}
