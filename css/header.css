@@ -31,3 +31,37 @@ header{
     flex-direction: row;
     justify-content: center;
 }
+
+@media (min-width: 768px) and (max-width: 1023px){
+    header{
+        margin: 0;
+    }
+    
+    .navbar{
+        display: none;
+    }
+
+    .header__nav{
+        display: block;
+        margin-top: 5vh;
+    }
+
+    .header__nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+    }
+
+    .header__li{
+        width: 13.5vw;
+        padding: 2vh 0;
+        margin: 0;
+    }
+
+}
+
+@media (min-width: 1024px){
+    
+}
