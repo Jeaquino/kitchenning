@@ -1,15 +1,33 @@
+header{
+    text-align: center;
+    margin-top: 5vw;
+}
+
 #logo{
     width: 25%;
     border-radius: 50%;
-    border: solid 1px black;
 }
 
 .header__nav{
+    display: none;
+}
+
+.header__li{
     background-color: var(--var-color-enlace);
     text-align: center;
     list-style: none;
 }
 
-.header__nav a{
+.header__li a{
     text-decoration: none;
+}
+
+.bg-burguer-button{
+    background-color: var(--var-color-enlace);
+}
+
+.align-burguer-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
