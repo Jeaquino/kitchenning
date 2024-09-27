@@ -32,9 +32,10 @@ header{
     justify-content: center;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 768px){ /* TABLET */
     header{
         margin: 0;
+        margin-top: -10px;
     }
     
     .navbar{
@@ -51,17 +52,34 @@ header{
         flex-direction: row;
         justify-content: space-between;
         padding: 0;
-        margin: 0;
+        margin-top: -30px;
     }
 
     .header__li{
         width: 13.5vw;
-        padding: 2vh 0;
+        padding: 1vh 0;
         margin: 0;
     }
 
 }
 
-@media (min-width: 1024px){
-    
+@media screen and (min-width: 1024px){ /* DESKTOP */
+    body{
+        margin: 0 15%;
+        padding: 0;
+    }
+    #logo{
+        width: 150px;
+    }
+    header{
+        margin-top: 1dvh;
+    }
+    .header__nav ul{
+        margin-top: -4dvh;
+    }
+    .header__li{
+        width: 10.5vw;
+        padding: 1vh 0;
+        margin: 0;
+        margin-top: 2%;
 }
