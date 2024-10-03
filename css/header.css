@@ -8,6 +8,16 @@ header{
     border-radius: 50%;
 }
 
+@keyframes movientoDelLogo{
+    0% {transform: rotate(0deg)}
+    30% {transform: rotate(90deg)}
+    60%{transform: rotate(-90deg)}
+}
+
+#logo:hover{
+    animation: 2s infinite movientoDelLogo;
+}
+
 .header__nav{
     display: none;
 }
@@ -41,7 +51,7 @@ header{
     margin-top: 3vh;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px){
     header{
         margin: 0;
     }
@@ -67,6 +77,18 @@ header{
         width: 13.5vw;
         padding: 2vh 0;
         margin: 0;
+    }
+
+    .header__li:hover{
+        padding: 2.5vh 0;
+        box-shadow: 2px 2px 5px rgb(212, 66, 66);
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+    }
+    
+
+    .burguer-menu{
+        display: none;
     }
 
 }
