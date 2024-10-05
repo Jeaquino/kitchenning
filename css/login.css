@@ -1,0 +1,59 @@
+.menu-usuario{
+    display: none;
+}
+
+main{
+    text-align: center;
+    margin-top: 2vh;
+}
+
+form{
+    width: 70%;
+    height: 50vh;
+    margin: 30px auto;
+    align-content: center;
+    background-color: #dadada;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.input-container{
+    margin-top: 3vh;
+}
+
+.button-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        border-radius: 5px;
+        border: none;
+    }
+
+    :last-child{
+        background-color: rgb(161, 51, 51);
+        color: white;
+    }
+
+    :first-child{
+        background-color: #1259c3;
+        color: white;
+    }
+
+    :hover{
+        box-shadow: 0px 0px 10px #181616;
+    }
+
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px){
+    main{
+        margin-top: 5vh;
+    }
+    form{
+        width: 50%;
+        height: 40vh;
+    }
+}

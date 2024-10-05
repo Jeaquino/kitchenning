@@ -1,34 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-* {
-    margin: 0 auto;
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    list-style: none;
-}
-
-:root{
-    --var-color-enlace: #494949
-}
-
-body {
-    background-image: url("../images/bg-body.png");
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a{
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
 #banner{
     display: none;
+}
+
+
+.home__section p::after{
+    content: url(../images/star-svgrepo-com.svg);
+    width: 10%;
+}
+
+.home__section p::first-letter{
+    color: red;
+    font-size: 1.5rem;
+    font-family:cursive;
+}
+
+.home__section p::selection{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .home__section__article{
@@ -78,7 +66,14 @@ nav ul li a{
     padding: 3px 0;
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+.home__container__article a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 1.5rem;
+    box-shadow: 2px 3px 9px red;
+}
+
+@media (min-width: 768px){
     body{
         padding: 6vw 6vw 0 6vw;
     }
@@ -113,5 +108,7 @@ nav ul li a{
 }
 
 @media (min-width: 1024px){
-    
+    .home__section__article{
+        width: 30%;
+    }
 }
