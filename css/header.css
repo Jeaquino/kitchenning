@@ -3,6 +3,17 @@ header{
     margin-top: 5vw;
 }
 
+.menu-usuario{
+    text-align: end;
+    margin-right: 40px;
+    color: #1259c3;
+    font-size: 1.5rem;
+    
+    a{
+        color: #1259c3;
+    }
+}
+
 #logo{
     width: 45%;
     border-radius: 50%;
